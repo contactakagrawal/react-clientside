@@ -1,5 +1,5 @@
 # React clientside
-> Use react clientside
+> Client side focused react application boilerplate
 
 ## Url
 
