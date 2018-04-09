@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "script": "./src/server/index.js",
+      "instances": "2",
+      "exec_mode": "cluster",
+      "error_file": "/apps/opt/logs/pds-dashboard-err.log",
+      "out_file": "/apps/opt/logs/pds-dashboard-out.log",
+      "name": "pds-dashboard"
+    }
+  ]
+}
