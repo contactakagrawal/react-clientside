@@ -7,6 +7,14 @@ import createSagaMiddleware from 'redux-saga';
 import reducer from '../reducer';
 import appSaga from '../sagas';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { IntlProvider, defineMessages } from 'react-intl';
+
+const messages = defineMessages({
+  header: {
+    id: 'test',
+    defaultMessage: 'Hello from Intl'
+  }
+});
 
 import ForgetPassword from './ForgetPassword';
 import ResetPassword from './ResetPassword';
@@ -21,33 +29,37 @@ const AppWrapper = styled.div`
 `;
 
 const sagaMiddleware = createSagaMiddleware();
+
 const store = createStore(reducer, applyMiddleware(sagaMiddleware));
+
 sagaMiddleware.run(appSaga);
 
 const App = () => (
-  <Provider store={store}>
-    <AppWrapper>
-      <Helmet
-        titleTemplate="%s - Data Difference Reports"
-        defaultTitle="Data Difference Reports"
-      >
-        <meta name="description" content="Data Difference Viewer" />
-      </Helmet>
-      <Router>
-        <div>
-          <Switch>
-            <Route exact path="/" component={ForgetPassword} />
-            <Route exact path="/reset-password" component={ResetPassword} />
-            <Route
-              exact
-              path="/self-registration"
-              component={SelfRegistration}
-            />{' '}
-          </Switch>
-        </div>
-      </Router>
-    </AppWrapper>
-  </Provider>
+  <IntlProvider messages={messages} locale="en">
+    <Provider store={store}>
+      <AppWrapper>
+        <Helmet
+          titleTemplate="%s - Data Difference Reports"
+          defaultTitle="Data Difference Reports"
+        >
+          <meta name="description" content="Data Difference Viewer" />
+        </Helmet>
+        <Router>
+          <div>
+            <Switch>
+              <Route exact path="/" component={ForgetPassword} />
+              <Route exact path="/reset-password" component={ResetPassword} />
+              <Route
+                exact
+                path="/self-registration"
+                component={SelfRegistration}
+              />
+            </Switch>
+          </div>
+        </Router>
+      </AppWrapper>
+    </Provider>
+  </IntlProvider>
 );
 
 export default App;

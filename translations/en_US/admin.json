@@ -1,0 +1,15 @@
+{
+	"app.containers.Admin.language.bg_bg": "Bulgarian (Bulgaria)",
+	"app.containers.Admin.language.zh_cn": "Chinese (Simplified)",
+	"app.containers.Admin.language.nl_nl": "Dutch (Netherlands)",
+	"app.containers.Admin.language.en_gb": "English (United Kingdom)",
+	"app.containers.Admin.language.en_us": "English (United States)",
+	"app.containers.Admin.language.fr_fr": "French (France)",
+	"app.containers.Admin.language.de_de": "German (Germany)",
+	"app.containers.Admin.language.it_it": "Italian (Italy)",
+	"app.containers.Admin.language.ja_jp": "Japanese (Japan)",
+	"app.containers.Admin.language.pl_pl": "Polish (Poland)",
+	"app.containers.Admin.language.pt_br": "Portuguese (Brazil)",
+	"app.containers.Admin.language.ru_ru": "Russian (Russia)",
+	"app.containers.Admin.language.es_la": "Spanish (Latin America)"
+}

@@ -1,0 +1,11 @@
+{
+	"recoverUsername.title": "Recover Your Username",
+	"recoverUsername.guidingLabel": "ENTER EMAIL",
+	"recoverUsername.label": "Recover your portal username using the email address on your account.",
+	"recoverUsername.email.label": "Receive a recovery message via email.",
+	"recoverUsername.success.greeting": "Thanks!",
+	"recoverUsername.success.message": "You should receive an email shortly with instructions and a link to recover your username. If an email is not received within a few minutes, please check your spam or junk filters or try again.",
+	"recoverUsername.error.invalidEmail": "Your email address is invalid.",
+	"recoverUsername.btn.continue": "Recover Username",
+	"recoverUsername.btn.returnToLogin": "Return to Login"
+}

@@ -21,7 +21,7 @@ import './global-styles'
 import Loadable from 'react-loadable';
 
 const Loading = () => <div>
-  Loading
+  Loading...
 </div>
 
 const LoadableComponent = Loadable({

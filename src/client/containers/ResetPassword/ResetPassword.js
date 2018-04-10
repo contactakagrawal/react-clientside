@@ -1,11 +1,11 @@
 import React from 'react';
 import { Input } from 'antd';
 import 'antd/lib/input/style';
-import Nav from '../components/Nav';
+import Nav from '../../components/Nav';
 import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect'
 
-import { nameSelector } from '../selectors'
+import { nameSelector } from '../../selectors'
 
 const ResetPassword = (props) => (
   <div className="content">

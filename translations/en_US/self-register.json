@@ -1,0 +1,15 @@
+{
+	"selfRegister.title": "Provide Profile Information",
+	"selfRegister.title.localeInformation": "Locale Information",
+	"selfRegister.label.language": "Language",
+	"selfRegister.label.preferredTimezone": "Preferred Timezone",
+	"selfRegister.title.profileInformation": "Profile Information",
+	"selfRegister.guidingLabel": "ENTER EMAIL",
+	"selfRegister.label": "To reset your password, enter the email address associated with your portal account.",
+	"selfRegister.email.label": "Email Address",
+	"selfRegister.success.greeting": "Thanks!",
+	"selfRegister.success.message": "You should receive an email shortly with instructions and a link to reset your account password. If an email is not received within a few minutes, please check your spam or junk filters or try again.",
+	"selfRegister.error.invalidEmail": "Your email address is invalid.",
+	"selfRegister.btn.continue": "Reset Password",
+	"selfRegister.btn.returnToLogin": "Return to Login"
+}

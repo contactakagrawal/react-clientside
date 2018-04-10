@@ -1,4 +1,3 @@
-import { combineReducers } from 'redux';
 import { LOAD_MORE } from './constants';
 import { fromJS } from 'immutable';
 

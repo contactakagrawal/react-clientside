@@ -1,6 +1,13 @@
 const jwtMiddleware = () => (req, res, next) => {
-  // Handle jwt here
-  next()
+  console.log('jwt-middleware invoked...');
+  const validToken = true;
+  const url = req.url;
+  console.log(`url : ${url}`);
+  if(url === '/reset-password'){
+
+  }
+  next();
+  
 };
 
 export default jwtMiddleware;

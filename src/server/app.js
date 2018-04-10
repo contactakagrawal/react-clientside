@@ -9,7 +9,7 @@ import routes from './routes'
 const app = express();
 
 app.use(compress())
-app.use(jwtMiddleware())
+//app.use(jwtMiddleware())
 app.use(bodyParser())
 app.use(frontendMiddleware())
 app.use(routes)

@@ -1,0 +1,11 @@
+{
+	"recoverUsername.title": "Benutzernamen wiederherstellen",
+	"recoverUsername.guidingLabel": "EMAIL EINGEBEN",
+	"recoverUsername.label": "Stellen Sie Ihren Portal-Benutzernamen mithilfe der E-Mail-Adresse ihres Kontos",
+	"recoverUsername.email.label": "Empfangen Sie eine Wiederherstellungsnachricht per E-Mail.",
+	"recoverUsername.success.greeting": "Danke!",
+	"recoverUsername.success.message": "Sie sollten in Kürze eine E-Mail mit Anweisungen und einem Link erhalten, um Ihren Benutzernamen wiederherzustellen.  Wenn Sie keine E-Mail innerhalb von wenigen Minuten empfangen, überprüfen Sie bitte Ihre Spam- oder Junk-Filter oder versuchen Sie es erneut.",
+	"recoverUsername.error.invalidEmail": "Ihre Email Addresse ist ungültig.",
+	"recoverUsername.btn.continue": "Benutzername wiederherstellen",
+	"recoverUsername.btn.returnToLogin": "Zurück zu login"
+}

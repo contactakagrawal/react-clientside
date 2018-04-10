@@ -1,7 +1,7 @@
 import React from 'react';
 import { Rate } from 'antd';
 import 'antd/lib/rate/style';
-import Nav from '../components/Nav';
+import Nav from '../../components/Nav';
 
 const SelfRegistration = () => (
   <div className="content">

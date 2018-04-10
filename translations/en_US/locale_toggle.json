@@ -1,0 +1,15 @@
+{
+	"app.containers.LocaleToggle.en_us": "US English",
+	"app.containers.LocaleToggle.en_gb": "UK English",
+	"app.containers.LocaleToggle.de_de": "Deutsch",
+	"app.containers.LocaleToggle.es_la": "Español latinoamericano",
+	"app.containers.LocaleToggle.fr_fr": "Français",
+	"app.containers.LocaleToggle.it_it": "Italiano",
+	"app.containers.LocaleToggle.nl_nl": "Nederlands",
+	"app.containers.LocaleToggle.pl_pl": "Polski",
+	"app.containers.LocaleToggle.pt_br": "Português brasileiro",
+	"app.containers.LocaleToggle.ru_ru": "Русский",
+	"app.containers.LocaleToggle.bg_bg": "Български",
+	"app.containers.LocaleToggle.zh_cn": "中文简体",
+	"app.containers.LocaleToggle.ja_jp": "日本語"
+}
